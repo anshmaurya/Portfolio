@@ -1,6 +1,6 @@
 "use client";
 
-import { useSectionInView } from '@/lib/hooks';
+import Hooks from '@/lib/hooks';
 import { motion } from 'framer-motion';
 import toast from "react-hot-toast";
 
@@ -9,7 +9,8 @@ import Submitbtn from './submit-btn';
 import { sendEmail } from '@/action/sendEmail';
 
 const contact = () => {
-  const { ref } = useSectionInView("Contact");
+
+  const { ref } = Hooks("Contact");
 
   return (
     <motion.section

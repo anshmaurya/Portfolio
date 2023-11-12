@@ -2,7 +2,7 @@
 
 import React from "react";
 import { skillsData } from "@/lib/data";
-import { useSectionInView } from "@/lib/hooks";
+import Hooks from "@/lib/hooks";
 import { motion } from "framer-motion";
 const fadeInAnimationVariants = {
     initial: {
@@ -20,7 +20,7 @@ const fadeInAnimationVariants = {
   
 
 const Skills = () => {
-    const { ref } = useSectionInView("Skills");
+    const { ref } = Hooks("Skills");
   return (
    
     <section
