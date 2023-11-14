@@ -42,6 +42,11 @@ export const skillsData = [
   "MongoDB",
   "MySQl",
   "Express.js",
+  "Nessus",
+  "Linux",
+  "Metasploit",
+  "wireshark",
+  "nmap",
   "Web Penetration Testing",
   "Network Penetration Testing"
 

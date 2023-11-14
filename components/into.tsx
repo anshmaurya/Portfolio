@@ -7,6 +7,7 @@ import Link from "next/link";
 import {BsArrowRight, BsLinkedin} from "react-icons/bs";
 import {HiDownload} from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
+import Hooks from "@/lib/hooks";
 const Into = () => {
   return (
     <section className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]" id="home" >
